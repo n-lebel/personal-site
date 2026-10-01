@@ -1,0 +1,22 @@
+  :root { --bg:#fff; --fg:#111; --muted:#666; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0e0e10; --fg:#e8e8e8; --muted:#8a8a8a; }
+  }
+  body {
+    background: var(--bg); color: var(--fg);
+    font: 17px/1.7 "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    max-width: 34rem; margin: 0 auto; padding: 4rem 1.25rem 6rem;
+  }
+  h2 { font-size: 1.05rem; margin: 2rem 0 0.75rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 1.5rem; letter-spacing: -0.01em; }
+  p { margin: 0 0 1.1rem; }
+  a { color: inherit; text-decoration-color: var(--muted); text-underline-offset: 0.16em; }
+  a:hover { text-decoration-color: currentColor; }
+  nav { display: flex; justify-content: flex-end; gap: 1rem; margin-bottom: 2.5rem; }
+  nav a { display: inline-flex; color: var(--muted); }
+  nav a:hover { color: var(--fg); }
+  nav svg { width: 1.15rem; height: 1.15rem; fill: currentColor; }
+  ul.protocols { list-style: none; padding: 0; margin: 0 0 1.1rem; }
+  ul.protocols .impl { color: var(--muted); }
+  ul.protocols .impl:before { content: " · "; }
+  ul.protocols li { margin-bottom: 0.5rem; text-indent: -1.5rem; padding-left: 1.5rem; }

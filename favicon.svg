@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    text { fill: #1c1c1a; }
+    @media (prefers-color-scheme: dark) { text { fill: #e2e0da; } }
+  </style>
+  <text x="16" y="23" text-anchor="middle"
+        font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif"
+        font-size="24" font-weight="600" letter-spacing="-2.5">NL</text>
+</svg>
